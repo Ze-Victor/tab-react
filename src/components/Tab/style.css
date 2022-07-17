@@ -1,0 +1,47 @@
+.paneConteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 500px;
+  padding: 24px;
+  gap: 8px;
+  background: #ffffff;
+  /* Shadow / 6 */
+
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.isSelected {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 8px;
+
+  background: #ffffff;
+  box-shadow: inset 0px -3px 0px #5a3fe0;
+}
+
+.isSelected:hover {
+  cursor: pointer;
+}
+
+.buttonTab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 8px;
+
+  background: #ffffff;
+}
+
+.buttonsTab {
+  display: flex;
+}
+
+.buttonTab:hover {
+  cursor: pointer;
+}
+
+.paneTabs {
+  display: flex;
+}
